@@ -3,8 +3,58 @@
   <head>
     <title>Tic-Tac-Toe</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Orbitron" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+
   </head>
   <body>
+
+    <div id= "application" >
+      <nav>
+        <h1> Tic-Tac-Toe</h1>
+        <section id="game-button">
+        </section>
+
+      </nav>
+      <main>
+        <section id="game-board">
+          <div class="player">
+            <h2>Player </h2>
+              <h2>One</h2>
+            <h2> X </h2>
+          </div>
+          <div class="board">
+            <div id="row">
+              <div class="space" id="zero"></div>
+              <div class="space" id="one"></div>
+              <div class="space" id="two"></div>
+            </div>
+            <div id="row">
+              <div class="space" id="three"></div>
+              <div class="space" id="four"></div>
+              <div class="space" id="five"></div>
+            </div>
+            <div id="row">
+              <div class="space" id="six"></div>
+              <div class="space" id="seven"></div>
+              <div class="space" id="eight"></div>
+            </div>
+          </div>
+          <div class="player">
+            <h2>Player </h2>
+            <h2>One</h2>
+            <h2>O</h2>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- underscore Templates -->
+    <script type="text/template" id='tmpl-game-button'>
+      <button class="button">New Game</button>
+    </script>
+
+
     <script src="/app.bundle.js" charset="utf-8"></script>
   </body>
 </html>
