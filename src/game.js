@@ -1,9 +1,3 @@
-var Game = function(){
-  this.board = [0,0,0,0,0,0,0,0,0];
-  this.playerOne = 'Player One'; //X & 1
-  this.playerTwo = 'Player Two'; //O & -1
-  this.totalMoves = 0;
-};
 
 // Game.prototype.setFirstPlayer = function(){
 //   var players = [this.playerOne, this.playerTwo];

@@ -3,8 +3,49 @@
   <head>
     <title>Tic-Tac-Toe</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Space+Mono" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+
   </head>
   <body>
+
+    <div id= "application" >
+      <nav>
+        <h1> Tic-Tac-Toe</h1>
+        <h2>New Game</h2>
+      </nav>
+      <main>
+        <h2>Flip a Coin</h2>
+        <p>
+          Winner Takes First Move
+        </p>
+        <section id="game-board">
+          <h2>Game <%- number %></h2>
+          <h3>Player One</h3>
+          <h3> X </h3>
+          <div class="board">
+            <div id="row">
+              <div class="space" id="zero"></div>
+              <div class="space" id="one"></div>
+              <div class="space" id="two"></div>
+            </div>
+            <div id="row">
+              <div class="space" id="three"></div>
+              <div class="space" id="four"></div>
+              <div class="space" id="five"></div>
+            </div>
+            <div id="row">
+              <div class="space" id="six"></div>
+              <div class="space" id="seven"></div>
+              <div class="space" id="eight"></div>
+            </div>
+          </div>
+          <h3>Player One</h3>
+          <h3> O </h3>
+
+        </section>
+      </main>
+    </div>
     <script src="/app.bundle.js" charset="utf-8"></script>
   </body>
 </html>
